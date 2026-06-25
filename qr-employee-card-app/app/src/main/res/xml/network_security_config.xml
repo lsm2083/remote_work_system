@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 개발용: 사내/로컬 서버는 HTTP(비암호화)라 cleartext 허용.
+         서버 IP가 바뀌어도 막히지 않도록 전체 허용으로 둔다.
+         (특정 IP만 허용하려면 base-config 대신 domain-config 사용) -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

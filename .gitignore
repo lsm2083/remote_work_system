@@ -1,0 +1,32 @@
+# ---- Secrets / local config ----
+.env
+*.local
+local.properties
+
+# ---- Android / Gradle ----
+.gradle/
+build/
+*.iml
+.idea/
+captures/
+.cxx/
+
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+*.sqlite3
+embeddings_cache.npz
+
+# ---- Node / React ----
+node_modules/
+dist/
+
+# ---- Uploads ----
+uploads/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
